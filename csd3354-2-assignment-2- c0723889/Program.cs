@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 namespace csd3354_2_assignment_2__c0723889
 //rupinderpalsingh c0723889
 //ramandeepsingh brar c0730408
-
 {
     public class Program
     {
@@ -23,18 +22,9 @@ namespace csd3354_2_assignment_2__c0723889
 
     public class DelegateExercises
     {
-        void Method1()
+        void Method3()
         {
-            System.Console.WriteLine("Method1");
-
-
-        }
-
-        public void Method3()
-        {
-            MyDelegate myDelegate = new MyDelegate(Method1);
-            myDelegate();
-            System.Console.WriteLine(myDelegate.ToString());
+            System.Console.WriteLine(MyDelegate.ToString());
         }
     }
 }
