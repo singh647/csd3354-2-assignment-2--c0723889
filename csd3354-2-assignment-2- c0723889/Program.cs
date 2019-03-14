@@ -14,7 +14,7 @@ class Program
     {
         DelegateExercises delegateExercises = new DelegateExercises();
 
-        delegateExercises.Method2();
+        delegateExercises.Method2(); 
     }
 }
 
